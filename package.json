@@ -4,8 +4,6 @@
   "private": true,
   "dependencies": {
     "axios": "^0.19.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.6.9",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
@@ -13,7 +11,8 @@
     "styled-components": "^4.3.2"
   },
   "scripts": {
-    "start": "concurrently --kill-others-on-fail \"react-scripts start\" \"cd server && node app.js\"",
+    "start": "\"react-scripts start\" \"cd server && node app.js\"",
+    "dev": "concurrently --kill-others-on-fail \"react-scripts start\" \"cd server && node app.js\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
