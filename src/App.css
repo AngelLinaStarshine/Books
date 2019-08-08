@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+h4,
+h5 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  color: #094;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > * {
+  flex: 1 1 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background: #094;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: white;
+  font-size: 21px;
+  padding: 5px 10px;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  background: white;
+  color: #094;
+}
+
+/* Form */
+label {
+    display: block;
+}
+
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea, button {
+    width: 300px;
+    padding: 5px;
+    box-sizing: border-box;
+}
