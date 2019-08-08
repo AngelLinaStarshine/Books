@@ -27,7 +27,7 @@ class App extends React.Component {
   }
 
   getBooks(token) {
-    axios.get(`http://localhost:8080/api/books?token=${token}`)
+    axios.get(`/api/books?token=${token}`)
       .then((response) => {
         const { books } = response.data;
         this.setState({ books });
