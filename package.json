@@ -11,7 +11,7 @@
     "styled-components": "^4.3.2"
   },
   "scripts": {
-    "start": "\"react-scripts start\" \"cd server && node app.js\"",
+    "start": "\"cd server && node app.js\"",
     "dev": "concurrently --kill-others-on-fail \"react-scripts start\" \"cd server && node app.js\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
